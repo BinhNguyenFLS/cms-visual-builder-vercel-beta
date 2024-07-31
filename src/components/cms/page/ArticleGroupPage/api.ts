@@ -72,5 +72,5 @@ export async function getJobListings(query: string){
         body: JSON.stringify(searchQuery)
       });
 
-      return response.json();      
+      return response;      
 }
