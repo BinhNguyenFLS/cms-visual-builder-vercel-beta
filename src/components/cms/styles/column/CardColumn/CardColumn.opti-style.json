@@ -58,5 +58,19 @@
         }
       }
     }
+  },
+  "properties": {
+    "featureFlagVariation": {
+      "displayName": "Display if the variation is matched",
+      "type": "string",
+      "format": "shortString",
+      "sortOrder": 20
+    },
+    "featureFlagName": {
+      "displayName": "Display if this feature flag is on",
+      "type": "string",
+      "format": "shortString",
+      "sortOrder": 10      
+    }
   }
 }
